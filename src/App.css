@@ -2,37 +2,51 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #F8F9F9 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgrey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.csv-reader-input {
+  padding: 5px 7px;
+  color: white;
+  background-color: #2ECC71;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.work-space {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  margin: 20px auto;
+  max-width: 1400px;
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  padding: 5px;
+  border: 1px solid black;
 }
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: #F5B7B1;
+}
+
+.error {
+  display: flex;
+  margin: 20px auto;
+  padding: 0 20px;
+  border: 1px solid #E74C3C;
+  background-color: #FADBD8;
+  font-size: 16px;
+}
+
